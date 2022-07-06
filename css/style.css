@@ -1,0 +1,63 @@
+@import url("header.css");
+
+:root {
+    --cor-de-fundo:#3772FF;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans"
+}
+body {
+    background: url("../img/Forma\ 1.png")no-repeat, url("../img/Forma\ 2.png") 100% 199px no-repeat, url("../img/Ilustração\ 1.png") 33.66% 518px no-repeat;
+    background-color: var(--cor-de-fundo); 
+}
+
+
+.centro-meio {
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    left: 102px;
+    top: 238px;
+}
+.centro-meio h3 {
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+    /* identical to box height, or 185% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.centro-cima {
+    position: absolute;
+    width: 186.67px;
+    height: 46px;
+    left: 87px;
+    top: 168px;
+}
+
+.centro-baixo {
+    position: absolute;
+    width: 248px;
+    height: 72px;
+    left: 56px;
+    top: 302px;
+}
+
+.centro-baixo p {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

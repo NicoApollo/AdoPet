@@ -1,0 +1,30 @@
+.cabeçalho {
+    position: absolute;
+    width: 352.11px;
+    height: 295px;
+    left: -0.5px;
+    top: 0px;
+    background-image: url(../img/Forma\ 1.png);
+    background-position:center;
+}
+
+.casa {
+    position: absolute;
+    left: 13.33%;
+    right: 81.33%;
+    top: 15.23%;
+    bottom: 92.26%;
+}
+
+.mensagens {
+    position: absolute;
+    left: 34.95%;
+    right: 58.63%;
+    top: 15.47%;
+    bottom: 92.47%;
+}
+
+.cabeçalho_menu {
+    display:flex;
+    align-items: center;
+}
