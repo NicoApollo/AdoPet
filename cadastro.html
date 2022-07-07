@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link rel="stylesheet" href="css\reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
-    <title>AdoPet - Cadastro</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <link rel="stylesheet" href="css\reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css\style.css">
+        <title>AdoPet - Cadastro</title>
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <span class="cabeçalho_menu"></span>
+            <a href="#" class="casa"><img src="img\Casa.png"></a>
+            <a href="#" class="mensagens"><img src="img\mensagens.png"></a>
+            <img class="patas" src="img/Patas.png">
+        </header>
+
+
+        <main>
+
+            <div class="introducao">
+                <p class="frase1">Ainda não tem cadastro?<br><br></p>
+                <p class="frase2">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            </div>
+
+            <div class="formulario">
+                <div class="email">
+                    <h1>Email</h1>
+                    <input type="text" name="Email" placeholder="Escolha seu melhor email" class="email1">
+                    </div>
+
+                <div class="nome">
+                    <h1>Nome</h1>
+                    <input type="text" name="Nome" placeholder="Digite seu nome completo" class="nome1"/>
+                    </div>
+
+                <div class="senha">
+                    <h1>Senha</h1>
+                    <input type="text" name="Senha" placeholder="Crie uma senha" class="senha1"/>
+                    </div>
+
+                <div class="confirma_senha">
+                    <h1>Digite a Senha novamente</h1>
+                    <input type="text" name="Confirma_Senha" placeholder="Repita a senha criada acima" class="senha1"/>
+                    </div>
+                    <div class="botao">
+                        <a href="#" class="botao_confirma">Cadastrar</a>
+                    </div>
+
+            </div>
+
+        </main>
+
+        <footer class="Rodapé">
+            <img class="retangulo" src="img\Rectangle 9.png">
+            <h2 class="texto_rodapé">2022 - Desenvolvido por Alura.</h2>
+        </footer>
+    </body>
 </html>

@@ -1,3 +1,33 @@
+@import url("header.css");
+
+:root {
+    --cor-de-fundo:#ffffff;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans"
+}
+body {
+    background: url("../img/Forma\ 1.png")no-repeat, url("../img/Forma\ 3.png") 0% 360px no-repeat, url("../img/Logo\ \(1\).png") 40% 150px no-repeat;
+    background-color: var(--cor-de-fundo); 
+}
+
+.rodapé {
+    position: absolute;
+    width: 360px;
+    height: 104px;
+    left: 0px;
+    top: 813px;
+}
+
+.retangulo {
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    left: 0px;
+    top: 813px;
+
+    background: #36D6AD;
+}
+
 .texto_rodapé {
     position: absolute;
     width: 243px;
@@ -19,3 +49,169 @@
 
     color: #FFFFFF;
 }
+
+.patas {
+    position: absolute;
+    width: 189.96px;
+    height: 243.41px;
+    left: 200px;
+    top: -17px;
+}
+
+.formulario {
+    width: 312px;
+    height: 336px;
+    left: 24px;
+    top: 310px;
+}
+
+.introducao {
+    position: absolute;
+    width: 312px;
+    height: 71px;
+    left: 24px;
+    top: 210px;
+    }
+
+.frase1 {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 12px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    color: #3772FF;
+    }
+
+.frase2 {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    color: #3772FF;
+}
+
+.email {
+    position: absolute;
+    width: 312px;
+    height: 69px;
+    left: 24px;
+    top: 310px;
+}
+
+.nome {
+    position: absolute;
+    width: 312px;
+    height: 69px;
+    left: 24px;
+    top: 399px;
+}
+
+.senha {
+    position: absolute;
+    width: 312px;
+    height: 69px;
+    left: 24px;
+    top: 488px;
+}
+
+.confirma_senha {
+    position: absolute;
+    width: 312px;
+    height: 68px;
+    left: 24px;
+    top: 578px;
+}
+
+.email1 {
+    width: 312px;
+    height: 40px;
+    left: 24px;
+    top: 339px;
+
+    /* Cinza claro -fundos */
+
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.nome1 {
+    width: 312px;
+    height: 40px;
+    left: 24px;
+    top: 339px;
+
+    /* Cinza claro -fundos */
+
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.senha1 {
+    width: 312px;
+    height: 40px;
+    left: 24px;
+    top: 339px;
+
+    /* Cinza claro -fundos */
+
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.formulario h1 {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    align-items: center;
+    text-align: center;
+
+    /* Cinza */
+
+    color: #737380;
+}
+
+.botao {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 90px;
+    top: 670px;
+
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.botao_confirma {
+    margin: 0 auto 1em;
+    
+    display: block;
+    background-color:#FC7071;
+    border-radius: 6px;
+    padding-left:0 auto;
+    height:45px;
+    
+    line-height: 40px;
+    text-align:center;
+    font-family: var(--fonte-principal);
+    color:#FFFFFF;
+    text-decoration: none;
+    width: 11em;
+    font-size: 16px;
+    }
