@@ -102,7 +102,7 @@ body {
 }
 
 .email {
-    position:absolute;
+    position: absolute;
     width: 312px;
     height: 40px;
     left: 24px;
@@ -116,7 +116,7 @@ body {
 }
 
 .nome {
-    position:absolute;
+    position: absolute;
     width: 312px;
     height: 40px;
     left: 24px;
@@ -125,6 +125,7 @@ body {
     background: #f7f7f7;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
+
 }
 
 .senha {
@@ -156,6 +157,7 @@ body {
 }
 
 .formulario h1 {
+    position: absolute;
     font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: bold;
@@ -166,11 +168,19 @@ body {
     color: #737380;
 }
 
+.form {
+    display:block;
+    width: 312px;
+    height: 336px;
+    left: 24px;
+    top: 310px;
+}
+
 .botao {
     position: absolute;
-    width: 180px;
+    width: 148px;
     height: 40px;
-    left: 90px;
+    left: 106px;
     top: 670px;
 
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
@@ -196,7 +206,6 @@ body {
     }
 
     .f1 {
-        position: absolute;
         width: 68px;
         height: 25px;
         left: 146px;
@@ -204,7 +213,6 @@ body {
     }
 
     .f2 {
-        position: absolute;
         width: 68px;
         height: 25px;
         left: 146px;
@@ -212,7 +220,6 @@ body {
     }
 
     .f3 {
-        position: absolute;
         width: 68px;
         height: 25px;
         left: 146px;
@@ -220,7 +227,6 @@ body {
     }
 
     .f4 {
-        position: absolute;
         width: 163px;
         height: 24px;
         left: 98px;
@@ -237,7 +243,7 @@ body {
     .form-control small {
         position:absolute;
         bottom:0;
-        left:0;
+        top:0;
         visibility: hidden;
     }
 
@@ -251,6 +257,7 @@ body {
 
     .form-control.success i.fa-check-circle {
         color:#2ecc71;
+        visibility: visible;
     }
     
     .form-control.error i.fa-exclamation-circle {
