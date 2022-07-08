@@ -102,38 +102,7 @@ body {
 }
 
 .email {
-    position: absolute;
-    width: 312px;
-    height: 69px;
-    left: 24px;
-    top: 310px;
-}
-
-.nome {
-    position: absolute;
-    width: 312px;
-    height: 69px;
-    left: 24px;
-    top: 399px;
-}
-
-.senha {
-    position: absolute;
-    width: 312px;
-    height: 69px;
-    left: 24px;
-    top: 488px;
-}
-
-.confirma_senha {
-    position: absolute;
-    width: 312px;
-    height: 68px;
-    left: 24px;
-    top: 578px;
-}
-
-.email1 {
+    position:absolute;
     width: 312px;
     height: 40px;
     left: 24px;
@@ -146,26 +115,44 @@ body {
     outline: 0;
 }
 
-.nome1 {
+.nome {
+    position:absolute;
     width: 312px;
     height: 40px;
     left: 24px;
-    top: 339px;
+    top: 428px;
+    text-align: center;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
 
-    /* Cinza claro -fundos */
-
-    background: #F7F7F7;
-
+.senha {
+    position: absolute;
+    width: 312px;
+    height: 40px;
+    left: 24px;
+    top: 517px;
+    text-align: center;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: 0 none;
+    outline: 0;
 }
 
 .senha1 {
+    position: absolute;
     width: 312px;
     height: 40px;
     left: 24px;
-    top: 339px;
-    background: #F7F7F7;
+    top: 606px;
+    text-align: center;
+    background: #f7f7f7;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
+    border: 0 none;
+    outline: 0;
 }
 
 .formulario h1 {
@@ -177,7 +164,6 @@ body {
     align-items: center;
     text-align: center;
     color: #737380;
-    padding-bottom:6px;
 }
 
 .botao {
@@ -206,4 +192,73 @@ body {
     text-decoration: none;
     width: 11em;
     font-size: 16px;
+    outline:0;
+    }
+
+    .f1 {
+        position: absolute;
+        width: 68px;
+        height: 25px;
+        left: 146px;
+        top: 310px;
+    }
+
+    .f2 {
+        position: absolute;
+        width: 68px;
+        height: 25px;
+        left: 146px;
+        top: 399px;
+    }
+
+    .f3 {
+        position: absolute;
+        width: 68px;
+        height: 25px;
+        left: 146px;
+        top: 488px;
+    }
+
+    .f4 {
+        position: absolute;
+        width: 163px;
+        height: 24px;
+        left: 98px;
+        top: 578px;
+    }
+
+    .form-control i {
+        position: absolute;
+        top:45px;
+        right:10px;
+        visibility: hidden;
+    }
+
+    .form-control small {
+        position:absolute;
+        bottom:0;
+        left:0;
+        visibility: hidden;
+    }
+
+    .form-control.success input {
+        border-color:#2ecc71;
+    }
+
+    .form-control.error input {
+        border-color:#e74c3c;
+    }
+
+    .form-control.success i.fa-check-circle {
+        color:#2ecc71;
+    }
+    
+    .form-control.error i.fa-exclamation-circle {
+        color:#e74c3c;
+        visibility: visible;
+    }
+
+    .form-control.error small {
+        visibility: visible;
+        color:#e74c3c;
     }
