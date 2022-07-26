@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="css\reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdoPet - Inicial</title>
-    <link rel="stylesheet" href="css\styleIndex.css">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabeçalho">
-        <span class="cabeçalho_menu"></span>
-        <a href="#" class="casa"><img src="img\Casa.png"></a>
-        <a href="#" class="mensagens"><img src="img\mensagens.png"></a>
+    <header>
+        <section class="container-header">
+            <div id="ajustador-header">
+                <img src="img/Logo.svg">
+                <a href="">
+                    <img src="img/Casa.svg">
+                </a>
+                <a href="">
+                    <img src="img/Mensagens.svg">
+                </a>
+            </div>
+        </section>
     </header>
 
-    <div>
-        <div>
-            <img class="centro-cima" src="img\Logo.png">
+    <main>
+        <div class="container-main">
+            <div id="ajustador-menu">
+              <img src="img/Logo.svg">
+            </div>
         </div>
 
-        <div class="centro-meio">
-            <h3>Boas-Vindas!</h3>
+        <div class="texto-main">
+            <h1>Boas-vindas!</h1>
+            <p>Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!</p>
         </div>
 
-        <div class="centro-baixo">
-            <p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+        <div class="botao-main">
+            <a href="" class="botao-um">Já tenho conta</a>
+            <a href="" class="botao-dois">Quero me cadastrar</a>
         </div>
-     </div>
+    </main>
 
-     <div class="botao">      
-             <a href="#" class="conteudo_link">Já tenho conta</a><br>
-             <a href="#" class="conteudo_link">Quero me cadastrar</a>
-     </div>
-
-     <footer class="Rodapé">
-        <img class="retangulo" src="img\Rectangle 9.png">
-        <h2 class="texto_rodapé">2022 - Desenvolvido por Alura.</h2>
-     </footer>
+    <footer>
+    </footer>
 </body>
 </html>

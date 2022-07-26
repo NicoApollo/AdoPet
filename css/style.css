@@ -1,271 +1,82 @@
-@import url("header.css");
-
 :root {
-    --cor-de-fundo:#ffffff;
-    --fonte-principal: "Poppins";
-    --fonte-secundaria: "IBM Plex Sans"
+    --font-poppins: 'Poppins';
 }
+                                                    /* index */
 body {
-    background: url("../img/Forma\ 1.png")no-repeat, url("../img/Forma\ 3.png") 0% 360px no-repeat, url("../img/Logo\ \(1\).png") 40% 150px no-repeat;
-    background-color: var(--cor-de-fundo); 
+    background-color:#3772FF;
 }
 
-.rodapé {
-    position: absolute;
-    width: 360px;
-    height: 104px;
-    left: 0px;
-    top: 813px;
+                                                    /*header*/
+.container-header {
+    width: 559.8px;
+    height: 440.85px;
+    background: url("../img/Forma\ 1.svg") 0 0 no-repeat;
 }
 
-.retangulo {
-    position: absolute;
-    width: 100%;
-    height: 104px;
-    left: 0px;
-    top: 813px;
-
-    background: #36D6AD;
+.container-header img {
+    display: inline-block;
+    position: relative;
+    left: 160px;
+    top: 63px;
+    width: 17%;
+    padding-inline:15px;
 }
 
-.texto_rodapé {
-    position: absolute;
-    width: 243px;
-    height: 24px;
-    left: 65px;
-    top: 854px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left:18px;
+#ajustador-header a img {
+    width: 4%;
+}
+                                                    /*main*/                    
+main {
+    position: fixed;
+    top:130px;
+    height: 500px;
+    left: 590px;
+}
 
+.container-main {
+    top:130px;
+    left: 590px;
+}
 
-    display: flex;
-    align-items: center;
+#ajustador-menu img{
+    width: 200px;
+}
+
+.texto-main {
+    color: #fff;
+    font-family: var(--font-poppins);
     text-align: center;
-
-    color: #FFFFFF;
 }
 
-.patas {
-    position: absolute;
-    width: 189.96px;
-    height: 243.41px;
-    left: 200px;
-    top: -17px;
-}
-
-.formulario {
-    width: 312px;
-    height: 336px;
-    left: 24px;
-    top: 310px;
-}
-
-.introducao {
-    position: absolute;
-    width: 312px;
-    height: 71px;
-    left: 24px;
-    top: 210px;
-    }
-
-.frase1 {
-    font-family: var(--fonte-principal);
-    font-style: normal;
+.texto-main h1 {
+    position: relative;
+    top: 60px;
+    right:97px;
+    font-size:23px;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 12px;
-
-    display: block;
-    align-items: center;
-    text-align: center;
-
-    color: #3772FF;
-    }
-
-.frase2 {
-    font-family: var(--fonte-principal);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px;
-
-    display: block;
-    align-items: center;
-    text-align: center;
-
-    color: #3772FF;
 }
 
-.email {
-    position: absolute;
-    width: 312px;
-    height: 40px;
-    left: 24px;
-    top: 339px;
-    text-align: center;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: 0 none;
-    outline: 0;
+.texto-main p {
+    position: relative;
+    top: 125px;
+    right:97px;
+    font-size:16px;
+    max-width: 400px;
 }
 
-.nome {
-    position: absolute;
-    width: 312px;
-    height: 40px;
-    left: 24px;
-    top: 428px;
-    text-align: center;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-
+.botao-main {
+position: fixed;
+border:1px solid red;
+border-radius: 6px;
+padding:10px;
+text-align: center;
+top: 410px;
+left:610px;
 }
 
-.senha {
-    position: absolute;
-    width: 312px;
-    height: 40px;
-    left: 24px;
-    top: 517px;
-    text-align: center;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: 0 none;
-    outline: 0;
-}
-
-.senha1 {
-    position: absolute;
-    width: 312px;
-    height: 40px;
-    left: 24px;
-    top: 606px;
-    text-align: center;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: 0 none;
-    outline: 0;
-}
-
-.formulario h1 {
-    position: absolute;
-    font-family: var(--fonte-principal);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    color: #737380;
-}
-
-.form {
-    display:block;
-    width: 312px;
-    height: 336px;
-    left: 24px;
-    top: 310px;
-}
-
-.botao {
-    position: absolute;
-    width: 148px;
-    height: 40px;
-    left: 106px;
-    top: 670px;
-
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
-}
-
-.botao_confirma {
-    margin: 0 auto 1em;
-    
-    display: block;
-    background-color:#FC7071;
-    border-radius: 6px;
-    padding-left:0 auto;
-    height:45px;
-    
-    line-height: 40px;
-    text-align:center;
-    font-family: var(--fonte-principal);
-    color:#FFFFFF;
+.botao-main .botao-um{
+    display:flex;
     text-decoration: none;
-    width: 11em;
-    font-size: 16px;
-    outline:0;
-    }
-
-    .f1 {
-        width: 68px;
-        height: 25px;
-        left: 146px;
-        top: 310px;
-    }
-
-    .f2 {
-        width: 68px;
-        height: 25px;
-        left: 146px;
-        top: 399px;
-    }
-
-    .f3 {
-        width: 68px;
-        height: 25px;
-        left: 146px;
-        top: 488px;
-    }
-
-    .f4 {
-        width: 163px;
-        height: 24px;
-        left: 98px;
-        top: 578px;
-    }
-
-    .form-control i {
-        position: absolute;
-        top:45px;
-        right:10px;
-        visibility: hidden;
-    }
-
-    .form-control small {
-        position:absolute;
-        bottom:0;
-        top:0;
-        visibility: hidden;
-    }
-
-    .form-control.success input {
-        border-color:#2ecc71;
-    }
-
-    .form-control.error input {
-        border-color:#e74c3c;
-    }
-
-    .form-control.success i.fa-check-circle {
-        color:#2ecc71;
-        visibility: visible;
-    }
-    
-    .form-control.error i.fa-exclamation-circle {
-        color:#e74c3c;
-        visibility: visible;
-    }
-
-    .form-control.error small {
-        visibility: visible;
-        color:#e74c3c;
-    }
+    top:200px;
+}
