@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="patas">
+    <header>
+        <section class="container-header">
+            <div id="ajustador-header">
+                <img src="img/Logo.svg">
+                <a href="index.html">
+                    <img src="img/Casa.svg">
+                </a>
+                <a href="contato.html">
+                    <img src="img/Mensagens.svg">
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="container-main">
+            <div id="ajustador-menu-cadastro">
+              <img src="img/Logo-Azul.svg">
+            </div>
+        </div>
+
+        <div class="texto-cadastro">
+            <p>Ainda não tem cadastro?</p>
+            <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </div>
+
+        <form>
+            <label for="nomecompleto">Nome</label>
+            <input type="text" id="nomecompleto" class="input-padrao" placeholder="Digite seu nome completo" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" placeholder="Digite seu melhor email" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="input-padrao" placeholder="Crie uma senha" required>
+            <img src="img/Ícone olho.png" id="olho">
+
+            <label for="confirmasenha">Confirme sua senha</label>
+            <input type="password" id="confirmasenha" class="input-padrao" placeholder="Repita a senha criada" required>
+            <img src="img/Ícone olho.png" id="olho-dois">
+
+            <input type="submit" value="Cadastrar!" class="enviar-cadastro">
+        </form>
+    </main>
+
+        <footer>
+            <div class="centralizador-footer">
+                <p>2022 - Desenvolvido por NicoApollo.</p>
+                <p>2022 - Disponibilizado por Alura.</p>
+            </div>
+        </footer>
+</body>
+</html>

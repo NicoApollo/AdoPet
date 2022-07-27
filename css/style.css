@@ -3,9 +3,16 @@
 }
                                                     /* index */
 body {
+    background: url("../img/Forma\ 2.png") 100% -75% no-repeat;
+}
+
+.fundo-azul {
     background-color:#3772FF;
 }
 
+.patas {
+    background: url("../img/Patas.png") 100% 0 no-repeat, url("../img/Forma\ 2.png") 100% -75% no-repeat;
+}
                                                     /*header*/
 .container-header {
     width: 559.8px;
@@ -28,7 +35,7 @@ body {
 }
                                                     /*main*/                    
 main {
-    position: fixed;
+    position: absolute;
     top:130px;
     height: 500px;
     left: 590px;
@@ -52,31 +59,164 @@ main {
 .texto-main h1 {
     position: relative;
     top: 60px;
-    right:97px;
-    font-size:23px;
+    right:120px;
+    font-size:28px;
     font-weight: bold;
 }
 
 .texto-main p {
     position: relative;
-    top: 125px;
-    right:97px;
-    font-size:16px;
-    max-width: 400px;
+    top: 105px;
+    right:120px;
+    font-size:18px;
+    max-width: 450px;
 }
 
 .botao-main {
-position: fixed;
-border:1px solid red;
-border-radius: 6px;
-padding:10px;
-text-align: center;
-top: 410px;
-left:610px;
+    position: absolute;
+    padding:10px;
+    top: 230px;
+    left:-100px;
 }
 
-.botao-main .botao-um{
+.botao-main .botao-um, .botao-dois {
     display:flex;
     text-decoration: none;
     top:200px;
+    padding:15px 100px 15px 100px;
+    background:#FC7071;
+    margin:15px;
+    border-radius: 6px;
+    font-family: var(--font-poppins);
+    color:#fff; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.botao-main p {
+    position:flex;
+    font-family: var(--font-poppins);
+    color:#fff; 
+}
+
+.gatinho {
+    position: absolute;
+    left: -17.26%;
+    right: 40.99%;
+    top: 83.02%;
+}
+
+                                                /* Footer */
+footer {
+    position:absolute;
+    width: 100%;
+    background: #36D6AD;
+    top:944px;
+    height: 100px;
+}
+
+footer p {
+    font-family: var(--font-poppins);
+    color:#fff;
+    font-size:16px;
+
+    font-weight: bold;
+    position: relative;
+    top:50%;
+}
+
+.centralizador-footer {
+    text-align: center;
+    height: 75px;
+}
+
+                                                    /* cadastro */
+.texto-cadastro {
+    position: relative;
+    width: 552px;
+    height: 78px;
+    left: -150px;
+    top: 48px;
+    font-family: var(--font-poppins);
+    color:#3772FF;
+    font-weight: 500;
+    font-size:18px;
+    text-align: center;
+}
+
+
+form {
+    position: absolute;
+    width: 538px;
+    height: 361px;
+    left: -145px;
+    top: 220px;
+}
+
+.input-padrao {
+    display:block;
+    width: 100%;
+    top:120px;
+    margin:0 0 30px;
+    height: 32px;
+    border:00px;
+    text-align: center;
+    font-family: var(--font-poppins);
+
+
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+form label {
+    font-weight: bold;
+    display:block;
+    font-size: 20px;
+    margin:0 0 10px;
+    color:#727280;
+    font-family: var(--font-poppins);
+    text-align: center;
+}
+
+#senha, #confirmasenha {
+    position: relative;
+    width: 70%;
+    left:15%;
+    top:0%;
+}
+
+.enviar-cadastro {
+    position: relative;
+    width: 174px;
+    height: 40px;
+    left: 35%;
+    border:0;
+    font-size: 18px;
+
+    font-family: var(--font-poppins);
+    color:#fff;
+    font-weight: 700;
+    background: #FC7071;
+    border-radius: 6px;
+}
+
+#ajustador-menu-cadastro img{
+    width: 250px;
+}
+
+#olho {
+position:absolute;
+left:430px;
+top:228px;
+cursor:pointer;
+}
+
+#olho-dois {
+    position:absolute;
+    left:430px;
+    top:322px;
+    cursor: pointer;
 }
