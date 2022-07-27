@@ -47,7 +47,7 @@ main {
 }
 
 #ajustador-menu img{
-    width: 200px;
+    width: 250px;
 }
 
 .texto-main {
@@ -141,7 +141,7 @@ footer p {
     top: 48px;
     font-family: var(--font-poppins);
     color:#3772FF;
-    font-weight: 500;
+    font-weight: 600;
     font-size:18px;
     text-align: center;
 }
@@ -203,15 +203,11 @@ form label {
     border-radius: 6px;
 }
 
-#ajustador-menu-cadastro img{
-    width: 250px;
-}
-
 #olho {
-position:absolute;
-left:430px;
-top:228px;
-cursor:pointer;
+    position:absolute;
+    left:430px;
+    top:228px;
+    cursor:pointer;
 }
 
 #olho-dois {
@@ -219,4 +215,37 @@ cursor:pointer;
     left:430px;
     top:322px;
     cursor: pointer;
+}
+
+                                                /* Login */
+#olho-login {
+    position: absolute;
+    left:430px;
+    top:135px;
+    cursor: pointer;
+}
+                                                /* Home */
+.texto-home {
+    position: relative;
+    display:flex;
+    top:15%;
+    lefT:-15%;
+    font-weight: 500;
+    color:#3772FF;
+    font-size: 18px;
+    font-family: var(--font-poppins);
+}
+
+.bloco-home {
+    position: absolute;
+    left:160px;
+    width: 1121;
+    height: 620;
+}
+
+#main-home {
+    position: absolute;
+    top:200px;
+    height: 40px;
+    left: 590px;
 }

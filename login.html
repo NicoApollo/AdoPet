@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -32,26 +32,18 @@
         </div>
 
         <div class="texto-cadastro">
-            <p>Ainda não tem cadastro?</p>
-            <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            <p>Já tem conta? Faça seu login:</p>
         </div>
 
         <form>
-            <label for="nomecompleto">Nome</label>
-            <input type="text" id="nomecompleto" class="input-padrao" placeholder="Digite seu nome completo" required>
-
             <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" placeholder="Digite seu melhor email" required>
+            <input type="email" class="input-padrao" id="email" placeholder="Digite o seu email">
 
             <label for="senha">Senha</label>
-            <input type="password" id="senha" class="input-padrao" placeholder="Crie uma senha" required>
-            <img src="img/Ícone olho.png" id="olho" onclick="mostrarOcultarSenha()">
+            <input type="password" class="input-padrao" id="senha" placeholder="Digite a sua senha">
+            <img src="img/Ícone olho.png" id="olho-login" onclick="mostrarOcultarSenha()">
 
-            <label for="confirmasenha">Confirme sua senha</label>
-            <input type="password" id="confirmasenha" class="input-padrao" placeholder="Repita a senha criada" required>
-            <img src="img/Ícone olho.png" id="olho-dois" onclick="mostrarOcultarSenhaDois()">
-
-            <input type="submit" value="Cadastrar!" class="enviar-cadastro">
+            <input type="submit" value="Entrar" class="enviar-cadastro">
         </form>
     </main>
 
